@@ -1,0 +1,165 @@
+body {
+  background : url('fondruche.jpg ') top center no-repeat ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+
+}
+
+.liensX{
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+
+}
+
+.liens-section{
+  padding: 15px;
+}
+
+
+.icon-section {
+  background-color: #fff7e6;
+  height: 1000px;
+}
+
+.videos {
+  background: rgba(237, 237, 237, 0.6);
+  margin: auto;
+  width: 75%;
+  border-radius: 20px;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+video {
+  margin: 2em auto;
+  border:10px;
+  display: block;
+}
+
+.page-navigation-block {
+  padding: 0,5em;
+  overflow: hidden;
+}
+
+header{
+overflow: hidden;
+background: #000000;
+background-attachment: fixed;
+height: 200px;
+}
+
+.message {
+background: rgba(237, 237, 237, 0.6);
+margin: auto;
+width: 75%;
+border-radius: 20px;
+margin-top: 42px;
+min-height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+.liens{
+  align-content: center;
+  width: 100%;
+  height: 170px;
+  background-color: #fdb82f;
+  margin-top: 170px;
+  flex-wrap: wrap;
+}
+
+
+
+.logo {
+  width : 290px;
+  float: left;
+}
+
+
+.logo img {
+  width : 100%;
+}
+
+
+li {
+  width : 150px;
+  height: 150px;
+  margin : 10px;
+  color: color-1;
+}
+
+
+li img {
+  width : 100%;
+}
+
+#colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-top: 120px;
+}
+
+#colors li {
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  #color-1 {
+    background-color: #fbb361;
+  }
+
+  #color-2 {
+    background-color: #bb3d01;
+  }
+
+  #color-3 {
+    background-color: #005b7f;
+  }
+
+  #color-4 {
+    background-color: #e4b5a1;
+  }
+
+  #color-5 {
+    background-color: #faeea4;
+  }
+
+  #color-6 {
+      background-color: #f0de1d;
+    }
+
+
+.footer {
+  background-color: #000000;
+  background-attachment: fixed;
+
+}
+
+
+.footer img{
+  width: 100px;
+  margin-left: 670px;
+}
